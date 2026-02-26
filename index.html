@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercício de Estrutura - Whatsapp Web</title>
+  </head>
+  <body>
+    <main class="app-container">
+      <nav class="sidebar">
+        <div
+          class="avatar-circle"
+          style="background-color: #555; margin-bottom: 10px"
+        ></div>
+
+        <button title="Conversas">💬</button>
+        <button title="Status">⭕</button>
+        <button title="Canais">📢</button>
+
+        <div class="spacer"></div>
+
+        <button title="Configurações">⚙️</button>
+      </nav>
+
+      <aside class="contacts-list">
+        <header class="header">
+          <strong>Whatsapp</strong>
+        </header>
+
+        <section class="search-wrapper">
+          <div class="input-container">
+            <span class="search-icon">🔍</span>
+
+            <input
+              type="text"
+              placeholder="Pesquisar ou começar uma nova conversa"
+              class="search-input"
+            />
+          </div>
+        </section>
+
+        <section class="chats-scroller">
+          <div class="chat-item">
+            <div class="chat-info-left">
+              <div class="avatar-circle"></div>
+              <p>Murilo</p>
+            </div>
+            <span class="unread-counter">1</span>
+          </div>
+
+          <div class="chat-item">
+            <div class="chat-info-left">
+              <div class="avatar-circle"></div>
+              <p>Matheus</p>
+            </div>
+            <span class="unread-counter">2</span>
+          </div>
+        </section>
+      </aside>
+
+      <article class="chat-window">
+        <p>Selecione uma conversa para começar</p>
+      </article>
+    </main>
+  </body>
+</html>
